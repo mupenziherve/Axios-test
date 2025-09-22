@@ -5,7 +5,7 @@ const url = 'https://icanhazdadjoke.com/';
 // Accept : 'application/json'
 
 const Headers = () => {
-  const [joke, setJoke] = useState('random dad joke');
+  const [joke, setJoke] = useState('Click for a random joke');
 
   const fetchDadJoke = async () => {
     try { 
